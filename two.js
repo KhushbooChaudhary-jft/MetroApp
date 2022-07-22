@@ -1,5 +1,5 @@
 function selectStation() {
-    let a = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'M', 'O',
+    let a = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
         'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
     for (let i = 0; i <= a.length - 1; i++) {
         document.getElementById("Destination").innerHTML += `<option value=${i + 1}>${a[i]}</option>`;
